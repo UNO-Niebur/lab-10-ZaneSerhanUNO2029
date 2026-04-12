@@ -1,7 +1,7 @@
 #MapPlot.py
-#Name:
-#Date:
-#Assignment:
+#Name: Zane Serhan
+#Date: 4/11/2026
+#Assignment: Lab10
 
 import csv
 import matplotlib.pyplot as plt
