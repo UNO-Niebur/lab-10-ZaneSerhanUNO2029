@@ -7,12 +7,13 @@ import csv
 import matplotlib.pyplot as plt
 trial = []
 reactionTime = []
-inFile = open("reaction_time_data.csv", "r")
-reader = csv.DictReader(inFile)
+File = open("reaction_time_data.csv", "r")
+reader = csv.DictReader(File)
 for row in reader:
     trial.append(int(row["Trial"]))
     reactionTime.append(int(row["ReactionTime_ms"]))
-
+    
+#Cleaning the data and making sure it uses only good data
 cleanTrial = []
 cleanReaction = []
 
